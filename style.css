@@ -1,0 +1,427 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.main{
+    margin: 0 auto;
+    
+    height: 1940px;
+
+    
+    
+    display: flex;
+    justify-content: center;
+    display: grid;
+    
+    
+    grid-gap: 10px;
+    
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+    grid-template-rows: 180px  70px 40px 50px 180px 180px 50px 180px 180px 180px 180px 180px 180px;
+    grid-template-areas:"logo logo logo logo logo logo"
+                        "nadpis nadpis nadpis nadpis nadpis nadpis"
+                        "knopki knopki knopki knopki knopki knopki"
+                        "illustration illustration motion motion design design"
+                        "kart_1_x kart_1_x kart_2_x kart_2_x kart_3_x kart_3_x"
+                        "kart_1_x kart_1_x kart_2_x kart_2_x kart_3_x kart_3_x"
+                        "featured_works featured_works featured_works featured_works news news"
+                        "kart_4 kart_5 kart_6 kart_7 hren_1 hren_1"
+                        "kart_8 kart_9_x kart_9_x kart_10 hren_1 hren_1"
+                        "kart_11 kart_9_x kart_9_x kart_12 hren_2 hren_2"
+                        "kart_13 kart_14 kart_15 kart_16 hren_2 hren_2"
+                        "kart_17_x kart_17_x kart_18 kart_19 hren_3 hren_3"
+                        "kart_17_x kart_17_x kart_20 kart_21 hren_3 hren_3"
+
+
+
+}
+.pusto_1{
+    
+    grid-area:pusto_1;
+}
+.pusto_2{
+    
+    grid-area:pusto_2;
+}
+.pusto_3{
+    
+    grid-area:pusto_3;
+}
+ 
+.logo{
+    
+    grid-area:logo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoo{
+    width: 210px;
+    height: 160px;
+}
+.nadpis{
+    grid-area:nadpis;
+    
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.nadpis a{
+    color:#707070
+}
+.nadpis p{
+    color: rgb(255, 255, 255);
+    font-family: "Arial";
+}
+.link{
+    text-decoration: none;
+    font-family: "Arial";
+    
+}
+.ssilki_1:hover{
+    color: #b9b9b9;
+}
+a{
+    text-decoration: none;
+}
+
+
+      
+        .knopki{
+            
+            grid-area:knopki;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1550px;
+            background-color: #707070;
+            height: 40px;
+           
+
+           
+            
+        
+            
+            
+        }
+        .linkii_left{
+            
+            width: 500px;
+            height: 100%;
+           
+            display: flex;
+            align-items: center;
+            
+            
+           
+        }
+        .linkii{
+            width: 100px;
+            height: 40px;
+            border-right: 1px solid #333333;
+            align-items: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Arial";
+           
+            font-size: 16px;
+            
+        }
+        .linkii:hover{
+            background-color: #b9b9b9;
+        }
+        .linkii1:hover{
+            background-color: #b9b9b9;
+        }
+
+        
+        
+        
+
+        .linkii_right{
+            width: 600px;
+            height: 100%;
+          
+            
+            display: flex;
+           
+            align-items: center;
+           
+        }
+        .tcg{
+            width: 450px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Arial";
+            font-size: 16px;
+            border-left: 1px solid #333333;
+        }
+        .tcg:hover{
+            background-color:#b9b9b9;;
+        }
+        .new-s:hover{
+            background-color:#b9b9b9;;
+        }
+        .new-s{
+            width: 260px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Arial";
+            font-size: 16px;
+            border-left: 1px solid #333333;
+        }
+        .knopki a{
+            color: #333333;
+        }
+        .linkii1{
+            border-left: 1px solid #333333;
+            
+            width: 150px;
+            height: 100%;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Arial";
+            font-size: 16px;
+            
+                     
+        }
+        .linkii_img{
+            width: 75px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            border-left: 1px solid #333333;
+            
+        }
+        .linkii_img1{
+            width: 20px;
+            height: 20px;
+            display: inline;
+            align-items: center;
+           
+        }
+        .linkii_img:hover{
+            background-color:#b9b9b9;;
+        }
+
+
+.illustration{
+    border-bottom: 1px solid #fff;
+    grid-area:illustration;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.motion{
+    border-bottom: 1px solid #fff;
+    grid-area:motion;
+    font-size: 30px;
+    color: #fff;
+   
+}
+.design{
+    border-bottom: 1px solid #fff;
+    grid-area:design;
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+        .photo_x{
+            width: 510px;
+            height: 370px;
+
+        }
+        .photo_x_h{
+            width: 510px;
+            height: 280px;
+            z-index: -2;
+         
+        }
+        .podpis_pod_hren{
+            z-index: 2;
+         
+            width: 510px;
+            height: 103px;
+            background-color: #2e2e2e;
+            margin-top: -18px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            
+
+        }
+        .podpis_pod_hren_1{
+            z-index: 2;
+            font-size: 22px;
+            color: #a1a1a1;
+            font-family: "Times New Roman";
+           
+            
+
+        }
+        img{
+            width: 250px;
+            height: 180px;
+
+        }
+            .hren_1{
+                
+                grid-area:hren_1;
+               
+
+
+            }
+            .hren_2{
+                
+                grid-area:hren_2;
+                
+            }
+            .hren_3{
+            
+                grid-area:hren_3;
+
+            }
+
+
+.kart_1_x{
+    
+    grid-area:kart_1_x;
+
+}
+.kart_2_x{
+    
+    grid-area:kart_2_x;
+
+}
+
+.kart_3_x{
+    
+    grid-area:kart_3_x;
+
+}
+.featured_works{
+
+    border-bottom: 1px solid #fff;
+    grid-area:featured_works;
+    font-size: 30px;
+    color: #fff;
+
+}
+.news{
+    border-bottom: 1px solid #fff;
+    grid-area:news;
+    font-size: 30px;
+    color: #fff;
+    
+}
+.kart_4{
+    
+    grid-area:kart_4;
+
+}
+.kart_5{
+    
+    grid-area:kart_5;
+
+}
+.kart_6{
+    
+    grid-area:kart_6;
+    
+}
+.kart_7{
+    
+    grid-area:kart_7;
+
+}
+
+.kart_8{
+    
+    grid-area:kart_8;
+
+}
+.kart_9_x{
+    
+    grid-area:kart_9_x;
+
+}
+.kart_10{
+    
+    grid-area:kart_10;
+
+}
+.kart_11{
+    
+    grid-area:kart_11;
+
+}
+.kart_12{
+    
+    grid-area:kart_12;
+
+}
+.kart_13{
+    
+    grid-area:kart_13;
+
+}
+.kart_14{
+    
+    grid-area:kart_14;
+
+}
+.kart_15{
+    
+    grid-area:kart_15;
+    
+}
+.kart_16{
+    
+    grid-area:kart_16;
+
+
+}
+.kart_17_x{
+    
+    grid-area:kart_17_x;
+
+}
+.kart_18{
+    
+    grid-area:kart_18;
+
+}
+.kart_19{
+    
+    grid-area:kart_19;
+    
+}
+.kart_20{
+    
+    grid-area:kart_20;
+
+}
+.kart_21{
+    
+    grid-area:kart_21;
+
+}
+
+
+
+
+
